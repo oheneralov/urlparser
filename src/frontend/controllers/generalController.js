@@ -8,7 +8,7 @@
 
             $http.get('parseurl.php?url=' + urltoparse).then(function (response) {
                 //console.log(response.data);
-                $scope.parsedUrl = response;
+                $scope.parsedUrl = response.data;
                 console.log(response);
                 return response;
             });

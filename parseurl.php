@@ -27,7 +27,7 @@ if (isset($_GET["url"])){
 	$result = Url::parse($urltoparse);
 
 }
-print_r($result);
+print(json_encode($result));
 
 
 
