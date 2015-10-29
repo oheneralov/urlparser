@@ -1,0 +1,4 @@
+To install just unzip the zipped file in a web server directory.
+To run the script you should have Linux, Apache, php >= 5.0.
+Example: http://localhost/parseurl.php?url=http://localhost.
+To run unit tests go to "tests" directory and type: "php phpunit.phar URLParserTest.php"

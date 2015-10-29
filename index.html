@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL parser</title>
+    <script src="library/angular.js"></script>
+    <script src="src/frontend/app.js"></script>
+    <script src="src/frontend/controllers/generalController.js"></script>
+</head>
+<body ng-app="app" ng-controller="generalController">
+<div>
+    <h3>Please enter the url</h3>
+    <form name="urlprocesser" method="get" novalidate ng-submit = "parseUrl(urltoparse)">
+        <input type = "url" placeholder = "http://localhost" ng-model = "urltoparse" >
+        <input type = "submit" value = "parse">
+    </form>
+    </div>
+<div>
+    Result:
+</div>
+<table border = "1px">
+    <tr>
+        <th>Schema</th>
+        <th>Host</th>
+    </tr>
+    <tr>
+        <td>{{parsedUrl}}</td>
+        <td>Host</td>
+    </tr>
+    </table>
+</body>
+</html>
