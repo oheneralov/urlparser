@@ -1,0 +1,24 @@
+{
+  "name": "urlparser",
+  "version": "1.0.0",
+  "description": "To install just unzip the zipped file in a web server directory. To run the script you should have Linux, Apache, php >= 5.0. Example: http://localhost/parseurl.php?url=http://localhost. You can also use web interface. Just go to http:/localhost/index.html. To run unit tests go to \"tests\" directory and type: \"php phpunit.phar URLParserTest.php\"",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oheneralov/urlparser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oheneralov/urlparser/issues"
+  },
+  "homepage": "https://github.com/oheneralov/urlparser#readme"
+}

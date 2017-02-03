@@ -6,6 +6,7 @@
     <script src="library/angular.js"></script>
     <script src="src/frontend/app.js"></script>
     <script src="src/frontend/controllers/generalController.js"></script>
+    <script src="src/frontend/services/urlservice.js"></script>
 </head>
 <body ng-app="app" ng-controller="generalController">
 <div>
