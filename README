@@ -1,5 +1,5 @@
-To install just unzip the zipped file in a web server directory.
-To run the script you should have Linux, Apache, php >= 5.0.
-Example: http://localhost/parseurl.php?url=http://localhost.
-You can also use web interface. Just go to http:/localhost/index.html.
+To install - clone from github
+To run the script "npm start"
+Example: http://localhost:8080/parseurl.php?url=http://localhost.
+You can also use web interface. Just go to http:/localhost:8080/index.html.
 To run unit tests go to "tests" directory and type: "php phpunit.phar URLParserTest.php"
